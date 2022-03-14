@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253946699507",
+    "project_id": "uptalks-913d1",
+    "storage_bucket": "uptalks-913d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253946699507:android:095bf98406f3a2e9082186",
+        "android_client_info": {
+          "package_name": "com.example.up_talks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253946699507-dugoh6u72e0unp3glnuum535aneb979j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB0c2To_cq61PJCWV7SDw6pWmAOVK5qyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253946699507-dugoh6u72e0unp3glnuum535aneb979j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
