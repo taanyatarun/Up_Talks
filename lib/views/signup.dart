@@ -38,7 +38,7 @@ class _SignUpState extends State<SignUp> {
       };
 
       HelperFunctions.saveUserEmailSharedPrefernce(email.text);
-      HelperFunctions.saveUserEmailSharedPrefernce(userName.text);
+      HelperFunctions.saveUserNameSharedPrefernce(userName.text);
 
       setState(() {
         _isLoading = true;
@@ -49,6 +49,8 @@ class _SignUpState extends State<SignUp> {
         print("${email.text}");
 
         databaseMethods.uploadUserInfo(userInfoMap);
+
+        HelperFunctions.saveUserLoggedInSharedPrefernce(true);
         
         Navigator.pushReplacement(context, MaterialPageRoute(
             builder: (context) => ChatRoom()
